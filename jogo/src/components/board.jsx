@@ -44,7 +44,7 @@ const Board = () => {
           <p className="winner">O vencedor é: {winner}!</p>
         ) : (
           // Exibe o próximo jogador se não houver vencedor
-          `Próximo a jogar: ${xIsNext ? "X" : "O"}`
+          `Próximo a jogar: ${xIsNext ? "Jogador 1" : "Jogador 2"}`
         )}
       </div>
       {/* Renderização das linhas do tabuleiro com componentes Square */}
